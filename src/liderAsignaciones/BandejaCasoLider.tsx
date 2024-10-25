@@ -6,7 +6,6 @@ import IconTooltip from "../modals/botonTooltip";
 const BandejaCasosLider: React.FC = () => {
 
     const url = '/ejemplo.json' //Solo modificar esta url
-
     const { data, loading } = useFetchData(url);
     const columns = useColumns(url, [
         { label: 'Solicitud', renderComponent: (rowData: any) => <IconTooltip solicitud={rowData.solicitud} /> },
@@ -30,7 +29,6 @@ const BandejaCasosLider: React.FC = () => {
     return (
         <VentanaUsuario>
             <TabVentana eventKey="solicitudes" title="Solicitudes">
-                <br />
                 <br />
                 <CustomeTable
                     columns={columns}
