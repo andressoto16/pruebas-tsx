@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React from "react";
 
 interface CustomColumn {
     label: string;
@@ -9,10 +9,10 @@ interface CustomColumn {
 // 
 const useFetchData = (url: string) => {
     
-    const [data, setData] = useState<any[]>([]);
-    const [loading, setLoading] = useState(true);
+    const [data, setData] = React.useState<any[]>([]);
+    const [loading, setLoading] = React.useState(true);
 
-    useEffect(() => {
+    React.useEffect(() => {
         fetch(url)
             .then(response => {
                 if (!response.ok) {
@@ -35,9 +35,9 @@ const useFetchData = (url: string) => {
 
 // 
 const useColumns = (url: string, customColumns: CustomColumn[] = []) => {
-    const [columns, setColumns] = useState<any[]>([]);
+    const [columns, setColumns] = React.useState<any[]>([]);
 
-    useEffect(() => {
+    React.useEffect(() => {
         fetch(url)
             .then(response => {
                 if (!response.ok) {
