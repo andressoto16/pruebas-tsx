@@ -1,0 +1,130 @@
+[
+    {
+        "registro": 10030,
+        "nombre": {
+            "primer_nombre": "Juan",
+            "segundo_nombre": "Camilo",
+            "primer_apellido": "Medina",
+            "segundo_apellido": "Gutiérrez"
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685487",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "file:///C:/Users/Nykona/Desktop/prueba-tsx/public/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10031,
+        "nombre": {
+            "primer_nombre": "Pedro",
+            "segundo_nombre": "León",
+            "primer_apellido": "Cubillos",
+            "segundo_apellido": "Cuartas"
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685985",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10032,
+        "nombre": {
+            "primer_nombre": "María",
+            "segundo_nombre": "Fernanda",
+            "primer_apellido": "López",
+            "segundo_apellido": "Pumarejo"
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685488",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10033,
+        "nombre": {
+            "primer_nombre": "Carlos",
+            "segundo_nombre": "Andrés",
+            "primer_apellido": "Pérez",
+            "segundo_apellido": ""
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685489",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10034,
+        "nombre": {
+            "primer_nombre": "Ana",
+            "segundo_nombre": "María",
+            "primer_apellido": "Rodríguez",
+            "segundo_apellido": ""
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685490",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10035,
+        "nombre": {
+            "primer_nombre": "Luis",
+            "segundo_nombre": "Miguel",
+            "primer_apellido": "Torres",
+            "segundo_apellido": "Martínez"
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685491",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10036,
+        "nombre": {
+            "primer_nombre": "Laura",
+            "segundo_nombre": "Marcela",
+            "primer_apellido": "Gómez",
+            "segundo_apellido": "Jaramillo"
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685492",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    },
+    {
+        "registro": 10037,
+        "nombre": {
+            "primer_nombre": "Jorge",
+            "segundo_nombre": "",
+            "primer_apellido": "Ramírez",
+            "segundo_apellido": ""
+        },
+        "identificacion": {
+            "tipo_identificacion": "Cédula de ciudadanía",
+            "numero_identificacion": "1020685493",
+            "abreviatura_identificación": "C.C.",
+            "fecha_expedicion": "24-12-1998",
+            "copia_identificacion": "/cedula-ejemplo.pdf"
+        }
+    }
+]

@@ -1,10 +1,9 @@
 import React from "react";
-import BandejaCasosLider from "./liderAsignaciones/BandejaCasoLider";
+import BandejaAsignacion from "./vistasUsuario/BandejaAsignacion";
 
 
 const App: React.FC = () => (
-
-    <BandejaCasosLider />
+    <BandejaAsignacion />
 );
 
 export default App;
