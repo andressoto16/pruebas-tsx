@@ -20,7 +20,7 @@ const Solicitud: React.FC = () => {
         { label: 'Radicado', hasModal: true },
         { label: 'Días Hábiles' },
         { label: 'Nombre completo' },
-        { key: 'nuip', label: 'Nuip', hasModal: true },
+        { label: 'Nuip', hasModal: true },
         { label: 'Género' },
         { label: 'Celular o teléfono' },
         { label: 'Correo' },

@@ -35,7 +35,7 @@ module.exports = {
             directory: path.join(__dirname, 'public'), // Para servir archivos desde la carpeta 'public'
         },
         compress: true,
-        port: 3000,
+        port: 7000,
     },
     plugins: [
         new HtmlWebpackPlugin({

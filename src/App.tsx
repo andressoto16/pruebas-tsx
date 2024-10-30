@@ -1,9 +1,19 @@
 import React from "react";
-import BandejaAsignacion from "./vistasUsuario/BandejaAsignacion";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { InicioSesion } from "eco-unp/ui";
+import Solicitud from "./tabs/Solicitudes";
 
-
-const App: React.FC = () => (
-    <BandejaAsignacion />
-);
-
+const App = () => {
+ 
+ 
+  return (
+    <Router>
+        <Routes>
+          <Route path="/" element={<InicioSesion />} />  
+          <Route path="/oaj/gdj/bandeja-recurso-reposicion" element={<Solicitud />} />
+        </Routes>
+    </Router>
+  );
+};
+ 
 export default App;
