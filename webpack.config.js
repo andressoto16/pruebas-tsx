@@ -16,7 +16,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(ts|tsx)$/,
+                test: /\.(ts|tsx|js|jsx)$/,
                 exclude: /node_modules/,
                 use: 'babel-loader',
             },
@@ -35,7 +35,8 @@ module.exports = {
             directory: path.join(__dirname, 'public'), // Para servir archivos desde la carpeta 'public'
         },
         compress: true,
-        port: 7000,
+        port: 3000,
+        historyApiFallback: true, // para solicitudes get
     },
     plugins: [
         new HtmlWebpackPlugin({
